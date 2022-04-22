@@ -1,0 +1,60 @@
+body {
+    background-color: lightskyblue;
+    margin: 0;
+}
+
+
+/* NAV BAR */
+
+header {
+    background-color: gray;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+
+/* Action Button */
+
+.btn {
+    display: block;
+    width: max-content;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    background-color: Whitesmoke;
+    text-align: center;
+}
+
+
+/* ***** */
+
+
+/* font */
+
+
+/* ***** */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: White;
+    margin-bottom: 12px;
+}
+
+p,
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: clamp(1.0rem, 10vw, 1.6rem);
+    color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin: 12px;
+}
